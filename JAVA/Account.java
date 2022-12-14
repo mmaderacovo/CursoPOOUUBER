@@ -1,7 +1,7 @@
 package JAVA;
 
 class Account {
-    Integer id;
+    Integer idAccount;
     String name; 
     String document;
     String email;
@@ -10,5 +10,5 @@ class Account {
     public Account(String name, String document){
         this.name = name;
         this.document = document;
-    }
+     }
 }
