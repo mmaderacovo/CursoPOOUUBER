@@ -4,8 +4,9 @@ class Main {
     public static void main (String[] args){
         System.out.println("Hola Mundo");
 
-        Car car = new Car("AMQ123",new Account("Andres Herrera","AND123"));
-        car.passenger = 4;
-        car.printDataCar ();
+        UberX uberx = new UberX("AMQ123",new Account("Andres Herrea", "AND123"), 
+        "Chevrolet", "Sonic");
+        uberx.setPassenger(4);
+        uberx.printDataCar();
     } 
 }
